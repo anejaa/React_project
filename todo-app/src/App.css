@@ -1,0 +1,31 @@
+.container {
+    margin-top: 10%;
+    width: 60%;
+}
+
+.task-input {
+    display: flex;
+    width: 100%;
+}
+
+.task-btn {
+    align-items: center;
+    width: 20%;
+}
+  
+.task-list {
+    padding: 0;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.task-item.completed {
+    text-decoration: line-through;
+    color: #888;
+}

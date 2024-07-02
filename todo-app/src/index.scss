@@ -1,0 +1,17 @@
+@use '@carbon/react';
+
+body, html {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+  
+  #root {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
